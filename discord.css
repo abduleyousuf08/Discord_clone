@@ -1,0 +1,348 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+    box-sizing: border-box;
+    width: 100%;
+    height: 80px;
+    padding-top: 25px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.logo a i {
+    color: white;
+
+}
+
+
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+
+.main button {
+    border-radius: 30px;
+    padding: 7px 16px;
+    background: #ffffff;
+    font-family: sans-serif;
+    outline: none;
+    width: 113px;
+    height: 38px;
+    font-size: 12px;
+    color: #23272a;
+    cursor: pointer;
+}
+
+
+.content1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    padding-top: 120px;
+    background: blue;
+}
+
+.content1 h1 {
+    padding-left: 90px;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 56px;
+}
+
+.content1 p {
+    margin: 40px 0px 0px;
+    color: white;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+}
+
+
+
+.part2 {
+    margin-top: 40px;
+    margin-right: 60px;
+
+}
+
+.part2 a button {
+    padding: 16px 32px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.button1 {
+    margin-right: 50px;
+}
+
+
+.button2 {
+    background: black;
+    color: white;
+    outline: none;
+}
+
+
+.content2 {
+    display: flex;
+    padding: 80px 40px;
+}
+
+.qoral h2 {
+    font-size: 48px;
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+
+}
+
+.qoral p {
+    font-size: 19px;
+    font-family: sans-serif;
+}
+
+
+.content3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 120px 40px;
+    background: #f1faee;
+}
+
+.qoral-2 h2 {
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 48px;
+}
+
+.qoral-2 p {
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    margin: 24px 0px 0px;
+}
+
+
+.content4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 40px;
+}
+
+.qoral-3 h2 {
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 48px;
+}
+
+.qoral-3 p {
+    font-size: clamp(16px, 2vw, 20px);
+}
+
+.content5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f1faee;
+    padding: 120px 40px 80px;
+}
+
+.qoral-4 h2 {
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 40px;
+}
+
+.qoral-4 p {
+
+    font-size: 18px;
+    margin: 24px 0px 0px;
+}
+
+
+.qoral-5 {
+    font-family: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    margin: 30px 0px 0px;
+}
+
+.button-5 a button {
+    border-radius: 30px;
+    padding: 16px 32px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    background: #5865f2;
+    color: #ffff;
+    margin: 40px 0px 0px;
+    cursor: pointer;
+}
+
+.footer11 {
+    padding: 40px 40px 64px;
+    background: #23272a;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    border-bottom: 2px solid #5865f2;
+}
+
+.items1 a {
+    width: 30px;
+    color: black;
+}
+
+.items1 img {
+    width: 16px;
+    color: #ffff;
+    margin: 0px 8px 0px 0px;
+    cursor: pointer;
+
+}
+
+.items1 i {
+    cursor: pointer;
+}
+
+.items1 h4 {
+    color: #5865f2;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+
+}
+
+.items1 p {
+    color: #ffff;
+}
+
+.items1 a {
+    margin: 24px 0px 0px;
+    padding: 0px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.items2 ul li {
+    list-style-type: none;
+    padding-top: 25px;
+
+}
+
+.items2 ul li a {
+    text-decoration: none;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+#one a {
+    color: #5865f2;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px;
+}
+
+
+.last a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.last a button {
+    border-radius: 30px;
+    padding: 7px 16px;
+    background: #5865f2;
+    font-family: sans-serif;
+    outline-style: none;
+    width: 113px;
+    height: 38px;
+    font-size: 12px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+@media screen and (max-width:800px) {
+    body {
+        background: red;
+    }
+
+    .pages {
+        display: none;
+    }
+
+    .part1 p {
+        padding-left: 50px;
+    }
+
+    .part2 a button {
+        margin-bottom: 50px;
+    }
+
+    .content2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content4 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .content5 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    body {
+        background: yellow;
+    }
+
+    .part1 h1 {
+        display: none;
+    }
+
+    .part2 {
+        display: none;
+    }
+}

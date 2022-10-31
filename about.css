@@ -1,0 +1,448 @@
+.body {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: blue;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80px;
+    padding-top: 25px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.logo a i {
+    color: white;
+
+}
+
+
+
+.pages a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+
+
+
+.main button {
+    border-radius: 30px;
+    padding: 7px 16px;
+    background: #ffffff;
+    font-family: sans-serif;
+    outline: none;
+    width: 113px;
+    height: 38px;
+    font-size: 12px;
+    color: #23272a;
+    cursor: pointer;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    padding: 100px 0px 0px 0px;
+    background: blue;
+}
+
+.hagaajin {
+    width: 550px;
+}
+
+.qoral h1 {
+    margin: 0px 0px 24px;
+    color: #ffff;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 56px;
+}
+
+.qoral p {
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    color: #ffff;
+}
+
+
+.content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0px 0px;
+}
+
+.kow h2 {
+    font-size: 48px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #23272a;
+    margin: 0px 0px 40px;
+
+}
+
+.kow p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #202225;
+    margin: 0px 0px 20px;
+}
+
+.content3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 17px 0px;
+
+}
+
+.kow2 h3 {
+    font-size: 32px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px 0px 20px;
+}
+
+.kow2 p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px 0px 20px;
+}
+
+
+.content4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0px;
+}
+
+
+.kow3 h3 {
+    font-size: 32px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px 0px 20px;
+    color: #23272a;
+}
+
+.kow3 p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #202225;
+    margin: 0px 0px 20px;
+}
+
+
+.content5 {
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0px;
+}
+
+.kow4 h3 {
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    color: #23272a;
+    margin: 0px 0px 20px;
+}
+
+.kow4 p {
+    font-size: 20px;
+    color: #202225;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px 0px 20px;
+}
+
+
+.content6 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 131px;
+    background: #f9f9f9;
+}
+
+.qayb1 h2 {
+    font-size: 48px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #23272a;
+    margin: 0px 0px 40px;
+}
+
+.qayb1 h3 {
+    font-size: 32px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #5865f2;
+    margin: 0px 0px 20px;
+}
+
+.qayb1 p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #202225;
+    margin: 0px 0px 20px;
+}
+
+.qayb2 {
+    padding-top: 90px;
+}
+
+.qayb2 h3 {
+    font-size: 32px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #5865f2;
+    margin: 0px 0px 20px;
+}
+
+.qayb2 p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #202225;
+    margin: 0px 0px 20px;
+}
+
+.qayb3 {
+    padding-top: 90px;
+}
+
+.qayb3 h3 {
+    font-size: 32px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #5865f2;
+    margin: 0px 0px 20px;
+}
+
+.qayb3 p {
+    font-size: 20px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #202225;
+    margin: 0px 0px 20px;
+}
+
+.main2 {
+    padding: 120px 0px;
+    background: #23272a;
+}
+
+.main2 h2 {
+    font-size: 48px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    margin: 0px 0px 40px;
+    color: #ffff;
+
+}
+
+.images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-one img {
+    margin: 0px 10px;
+    width: 450px;
+    border-radius: 20px;
+    outline: none;
+    height: 20vw;
+}
+
+.cadaan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffff;
+    width: 90%;
+    max-width: 1180px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px 70px 50px;
+    border-radius: 16px;
+}
+
+.cadaan h3 {
+    margin: 0px 0px 20px;
+    font-family: "Ginto", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+    font-weight: 700px;
+    line-height: 32px;
+    color: #5865f2;
+}
+
+.cadaan p {
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 20px;
+    color: #202225;
+}
+
+
+.cadaan a button {
+
+    border-radius: 28px;
+    padding: 10px 10px 15px;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    background: #5865f2;
+    color: #ffff;
+    margin: 40px 0px 0px;
+    cursor: pointer;
+}
+
+
+.footer11 {
+    padding: 40px 40px 64px;
+    background: #23272a;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    border-bottom: 2px solid #5865f2;
+}
+
+.items1 a {
+    width: 30px;
+    color: black;
+}
+
+.items1 img {
+    width: 16px;
+    color: #ffff;
+    margin: 0px 8px 0px 0px;
+    cursor: pointer;
+
+}
+
+.items1 i {
+    cursor: pointer;
+}
+
+.items1 h4 {
+    color: #5865f2;
+    font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 32px;
+
+}
+
+.items1 p {
+    color: #ffff;
+}
+
+.items1 a {
+    margin: 24px 0px 0px;
+    padding: 0px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.items2 ul li {
+    list-style-type: none;
+    padding-top: 25px;
+
+}
+
+.items2 ul li a {
+    text-decoration: none;
+    font-family: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #fff;
+}
+
+#one a {
+    color: #5865f2;
+}
+
+.last {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px 0px;
+}
+
+
+.last a {
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+.last a button {
+    border-radius: 30px;
+    padding: 7px 16px;
+    background: #5865f2;
+    font-family: sans-serif;
+    outline-style: none;
+    width: 113px;
+    height: 38px;
+    font-size: 12px;
+    color: #ffff;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+
+
+
+/*mini-ipad devices */
+@media screen and (max-width:1200px) {
+    body {
+        background: red;
+    }
+
+    .pages {
+        display: none;
+    }
+}
+
+
+
+/*medium devices */
+@media screen and (max-width:800px) {
+    body {
+        background: yellow;
+    }
+
+    .sawir {
+        display: none;
+    }
+
+    .images {
+        flex-wrap: wrap;
+    }
+}
+
+/*mobile devices */
+@media screen and (max-width:600px) {
+    body {
+        background: #202225;
+    }
+
+    .images {
+        width: 50px;
+
+    }
+
+    .main2 h2 {
+        color: #ffff;
+    }
+}
