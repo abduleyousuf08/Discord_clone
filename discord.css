@@ -1,7 +1,6 @@
-.body {
+* {
     margin: 0px;
     padding: 0px;
-
 }
 
 
@@ -65,8 +64,11 @@
     height: 400px;
     padding-top: 120px;
     background: blue;
+    background-image: url("background3.svg"), url("background888.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom -10px left -380px, bottom -10px right -380px;
+    z-index: 1;
 }
-
 .content1 h1 {
     padding-left: 90px;
     font-family: "Ginto Nord", "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
